@@ -1,0 +1,17 @@
+.SearchBox {
+  -webkit-appearance: none;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  width: 300px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(214, 207, 207);
+
+  transition: all 0.2s;
+}
+
+.SearchBox:focus {
+  width: 310px;
+}
